@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header{
+    height: 70px;
+    border-bottom-width: 2px;
+    box-shadow: 0 5px 3px -1px rgba(0, 0, 0, 0.1);
+
+    
+}
+.menu{
+    list-style-type: none;
+    float: right;
+    display: inline-flex;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(16, 151, 185);
+    padding: 15px;
+    line-height: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.body{
+    width: 100%;
+    height: 120px;
+    display: block;
+}
+.body h1{
+    color: rgb(32, 32, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-left: 40%;
+}
+.bodyText{
+    color: grey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 30px;
+}
+.card{
+    width: 100%;
+    display: inline-flex;
+    background-color: white;
+    height: 69vh;
+}
+.user{
+    width: 35%;
+    padding: 30px;
+    display: block;
+}
+.user p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+    line-height: 4vh;
+    background-color: rgb(225, 237, 241);
+    padding: 20px;
+}
+.user img{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin-left: 39%;
+    margin-top: 20px;
+}
+.user h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.user h3{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+.user i{
+    color: rgb(172, 222, 241);
+    font-size: 30px;
+    margin-right: 10px;
+
+}
